@@ -1,0 +1,13 @@
+[
+    {
+      "question": "What is the meaning of 'शान्तिः'?",
+      "options": ["War", "Peace", "Fire", "Sky"],
+      "answer": "Peace"
+    },
+    {
+      "question": "Translate 'Knowledge' in Sanskrit:",
+      "options": ["विद्या", "कर्म", "नदी", "गुरु"],
+      "answer": "विद्या"
+    }
+  ]
+  

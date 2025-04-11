@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+    background: #fff8ec;
+  }
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  button {
+    padding: 1rem 2rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #f4c430;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .card {
+    max-width: 90%;
+    margin: auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  audio {
+    margin: 1rem 0;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Take Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="script-quiz.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-orange-50 min-h-screen flex flex-col justify-center items-center text-center px-4 py-8">
+  <h1 class="text-3xl font-bold text-orange-900 mb-6">Sanskrit Quiz</h1>
+  <div id="question-box" class="text-lg font-semibold text-orange-800 mb-4"></div>
+  <div id="options-box" class="space-y-3 w-full max-w-sm"></div>
+<!-- Back to Home Button -->
+<a href="index.html" class="absolute top-4 left-4 bg-orange-500 text-white px-4 py-2 rounded-xl hover:bg-orange-600 transition">
+  🔙 Home
+</a>
+  <div class="flex justify-center space-x-4 mt-6">
+    <button onclick="prevQuestion()" class="bg-gray-400 text-white px-6 py-2 rounded-xl hover:bg-gray-500 transition">
+      Previous
+    </button>
+    <button onclick="nextQuestion()" id="next-btn" class="bg-green-600 text-white px-6 py-2 rounded-xl hover:bg-green-700 transition">
+      Next
+    </button>
+  </div>
+</body>
+</html>
+

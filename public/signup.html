@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signup - Sanskrit for Curious</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="signup.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-orange-50 flex items-center justify-center min-h-screen">
+  <div class="bg-white rounded-xl shadow-xl p-8 w-full max-w-md border-2 border-orange-300">
+    <h2 class="text-2xl font-bold mb-4 text-orange-800 text-center">Create Account</h2>
+    <form id="signupForm" class="flex flex-col space-y-4">
+      <input type="text" id="username" placeholder="Username" required class="px-4 py-2 border border-orange-300 rounded focus:outline-none">
+      <input type="password" id="password" placeholder="Password" required class="px-4 py-2 border border-orange-300 rounded focus:outline-none">
+      <button type="submit" class="bg-orange-600 hover:bg-orange-700 text-white py-2 rounded">Sign Up</button>
+      <p id="error" class="text-red-600 text-sm text-center"></p>
+    </form>
+    <p class="text-sm mt-4 text-center text-gray-600">Already have an account? <a href="login.html" class="text-orange-600 font-semibold">Login</a></p>
+  </div>
+</body>
+</html>
